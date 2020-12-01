@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM naming conventions</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="index.html">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link  link-active" href="blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container container-center">
+        <h1>What are the BEM naming conventions in CSS?</h1>
+        <small>November 30, 2020</small>
+        <br>
+        <br>
+        <p>
+            The <strong>Block, Element, Modifier methodology</strong> (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project.
+        </p>
+        <p>Compare the same name for a CSS selector that is written in different ways : </p>
+        <ul>
+            <li>menuitemvisible</li>
+            <li>menu-item-visible</li>
+            <li>menuItemVisible</li>
+        </ul>
+        <img class="domain-img" src="images/BEM_naming.jpg" />
+        <h3>Naming Rules : </h3>
+        <ul>
+            <li>Names are written in lowercase Latin letters.</li>
+            <li>ames are written in lowercase Latin letters.</li>
+            <li>The block name defines the namespace for its elements and modifiers</li>
+            <li>The element name is separated from the block name by a double underscore (__).</li>
+            <li>The modifier name is separated from the block or element name by a single underscore (_).</li>
+            <li>The modifier value is separated from the modifier name by a single underscore (_).</li>
+            <li>For boolean modifiers, the value is not included in the name.</li>
+        </ul>
+
+        <blockquote class="blackquote-bg">
+            <p>Important: Elements of elements do not exist in the BEM methodology. The naming rules do not allow creating elements of elements, but you can nest elements inside each other in the DOM tree. </p>
+        </blockquote>
+        <small>Source : <a href="https://en.bem.info/methodology/naming-convention/">Naming Convention / Methodology BEM </a></small>
+    </div>
+    <br><br>
+    <footer class="footer">
+        <div class="footer-header">social media presecnce</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/07pranita">github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/pranita_07">twitter</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/pranita-fulsundar-8952711a6/">linkedin</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
