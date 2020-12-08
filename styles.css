@@ -75,14 +75,20 @@ hr{
 }
 .navigation .nav-pills{
     text-align: right;
+    font-size: 1.5rem;;
 }
 .navigation .nav-brand{
+    padding-top: 1rem;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 .navigation .link-active{
     font-weight: bold;
 }
+/* .hover-effect:hover{
+    text-decoration: underline;
+    font-size: 1.5rem;;
+} */
 
 /** header **/
 
@@ -160,3 +166,13 @@ p{
 .blackquote-bg{
     background-color: var(--off-white);
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
