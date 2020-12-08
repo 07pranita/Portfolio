@@ -91,7 +91,7 @@ hr{
     padding-top: 5rem;
 }
 .hero .hero-img{
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -115,6 +115,17 @@ hr{
 }
 .ow{
     background-color: var(--off-white);
+}
+.tech-heading{
+    font-weight: bold;
+    font-style: italic;
+    padding: 1rem;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 /** footer **/
