@@ -125,10 +125,10 @@ hr{
 .tech-heading{
     font-weight: bold;
     font-style: italic;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
 }
-p{
+.tech-center{
     text-align: center;
     margin: 0rem;
     padding: 0rem;
